@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>Travel Bookings</title>
+	  	<link rel="stylesheet" href="css/travel.css">
+		<link rel="stylesheet" href="css/dropdown.css">
+		<script>
+			function myFunction(){
+				document.getElementById("myDropdown").classList.toggle("show");
+				
+				document.getElementById("mydown").classList.toggle("show");
+				
+				document.getElementById("dwn").classList.toggle("show");
+				}
+		</script>       
+		              
+	</head>
+
+	<body>
+		<div id="container">
+				<div id ="menu">
+					<h1>Travel Bookings</h1>
+					<p> Faster,Easier!!</p>
+					<ul id="nav"> 
+
+						<li><a href="index.html" style="color:green"> Home</a></li>
+						<li><a href="services.html" style="color:green"> Services</a></li>
+						<li><a href="booking.html" style="color:green">Bookings </a></li>
+						<li><a href="info.html" style="color:green"> Info</a></li>
+						<li><input type ="search" placeholder="search"></li>
+					</ul>
+				</div>
+
+						<div id="content">
+						 		<h2>TRAIN BOOKINGS</h2><hr>
+						 		<p> You are one click away from booking your train ticket. Surf through the schedule and select the time that best suits you. Your ticket will be generated after you fill in your details. Your ticket reference code will be required at the point of payment to complete your booking.</p>
+
+						 		<h3>BOOK A TICKET</h3><hr>
+								<p><i><b>Cheap train schedules and fares</i></b></p>
+							<div id="ticket" style="background-color: lightgreen; width:300px; height:250px; text-align: center;float:left;"><img src="../img/abj1.jpg" width=200 alt="Spotted"></img>
+								<p><b>Kaduna to Abuja</b></p>
+							
+								<div class="dropdown">
+									<button onclick="myFunction()" class="dropbtn">Book now</button>
+									<div id="myDropdown" class="dropdown-content">
+										<a href="booking.html">1st trip<br>Departure 4:00pm</a>
+										<a href="booking.html">2nd trip<br>Arrival 7:00am</a>
+										<a href="booking.html">3rd trip<br>Departure 10:00am</a>
+										<a href="booking.html">4th trip<br>Arrival 2:00pm</a>
+									</div>
+								</div>
+							</div>
+
+								<br/>
+								<br/>
+								<br/>
+								
+								<div id="tickect2" style="background-color: lightgreen; width:300px; height:250px; text-align:center; margin-left: auto; margin-right: auto;"><img src="../img/abj1.jpg" width=200 alt="Spotted"></img>
+									<p><b>Abuja to Lagos</b></p>
+									<div class="drop">
+										<button onclick="myFunction()" class="btn">Book now</button>
+										<div id="mydown" class="content">
+											<a href="booking.html">1st trip<br>Departure 9:00am</a>
+											<a href="booking.html">2nd trip<br>Arrival 8:00am</a>
+											<a href="booking.html">3rd trip<br>Departure 10:00am</a>
+											<a href="booking.html">4th trip<br>Arrival 2:00pm</a>	
+										</div>
+									</div>
+								</div>	
+
+								<div id="tickect3" style="background-color: lightgreen; width:300px; height:250px; text-align:center; margin-right: 900px; margin-left: 800px; margin-top: -300px;"><img src="../img/abj1.jpg" width=200 alt="Spotted"></img>
+									<p><b>Kaduna to Lagos</b></p>
+									<div class="kad">
+										<button onclick="myFunction()" class="botn">Book now</button>
+										<div id="dwn" class="mycontent">
+											<a href="booking.html">1st trip<br>Departure 9:00am</a>
+											<a href="booking.html">2nd trip<br>Arrival 8:00am</a>
+											<a href="booking.html">3rd trip<br>Departure 10:00am</a>
+											<a href="booking.html">4th trip<br>Arrival 2:00pm</a>	
+										</div>
+									</div>
+								</div>	
+							
+
+								<br/>
+								<br/>
+								<br/><hr>
+							<div id="book" style="margin-left: auto; margin-right: auto;margin-top: 100px;">
+								<h2>Booking Status</h2>
+								<div id="input-group">
+					  	  			<label>Check your booking status</label>
+					  	  			<input type="code" placeholder="Enter refcode">
+					  			</div>
+					  				<br>
+					  				<br>
+					  			<div class="input-group">
+					  	  			<button type="submit" class="botton" name="status">Check Status</button>
+					  			</div>
+					  		</div>
+
+
+					  			<br>
+					  			<br>
+					  			<hr>
+					  			<br>
+					  			<div id="contact" style="margin-top: 10px;">
+					  				<table style="text-align:center; background-color: lightgreen;  text-align:center;">
+									<tr>
+										<td style="width:300px"><a href="info.html" style="color:black"><img src="../img/icon1.jpg"  alt="Spotted"><br>Contact Us</a></img></td>
+										<td style="width:300px"><a href="info.html" style="color:black"><img src="../img/askus.jpg" width=200 alt="Spotted"><br>Ask us Questions</a></img></td>
+
+										<td style="width:300px"><a href="info.html" style="color:black"><img src="../img/term1.jpg" width=200 alt="Spotted"><br>Travel Info</a></img></td>
+									
+										<td style="width:300px"><a href="info.html" style="color:black"><img src="../img/term2.png" width=200 alt="Spotted"><br>Terminals and Stations</a></img></td>
+
+									</tr>
+									</table>
+								</div>
+
+				  		</div>
+						
+
+
+						<div id="footer">
+							<p>@Travel bookings 2018</p>
+						</div>
+					
+
+
+
+
+		</div>				
+
+					
+
+
+
+
+</body>
+</html>

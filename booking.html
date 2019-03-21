@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>travel bookings</title>
+	<link rel="stylesheet" type="text/css" href="">
+
+</head>
+<body>
+	<div id="form" style="background-color:#996699; color:white; margin:20px; padding:20px;height:1250px;
+    width:600px;float:left;padding:5px;">
+    <div>
+    	<div style="background-color:white; color:#996699; margin:20px; padding:20px;">
+
+    		<h2>Trip Summary</h2>
+    		<p>below are the details of your trip</p>
+    		<h3>Destination</h3>
+    		<h4>date</h4>
+    		<h4>vehicle type</h4>
+    		<h4>selected seats</h4><br><br><br>
+
+    		<h4>1x Adult(s)  Child(ren)     #Amount</h4>
+    		<h4>Adult(member) discount      #Amount</h4>
+    		<h4>Total discount              #Amount</h4><br><br>
+    		<h4>Total to Pay                #Amount</h4>
+    	
+    </div>
+
+    <div style="background-color:white; color:#996699; margin:20px; padding:20px;">
+
+		<h2>Fill in Your details to complete your booking!</h2>
+		<form method="post" action="register.php">
+  	<?php include('errors.php'); ?>
+  	<div class="input-group">
+  	  <label>First Name</label>
+  	  <input type="text" name="First_Name" value="<?php echo $First_Name; ?>">
+  	</div>
+
+    <div class="input-group">
+      <label>Last Name</label>
+      <input type="text" name="Last_Name" value="<?php echo $Last_Name; ?>">
+    </div>
+    <div class="input-group">
+      <label>Address</label>
+      <input type="text" name="Address" value="<?php echo $Address; ?>">
+    </div>
+    <div class="input-group">
+      <label>Phone Number</label>
+      <input type="text" name="Phone_Number" value="<?php echo $Phone_Number ?>">
+    </div>
+  	<div class="input-group">
+  	  <label>Email</label>
+  	  <input type="Email" name="Email" value="<?php echo $Email; ?>">
+  	</div>
+  	<div class="input-group">
+  	  <label>password</label>
+  	  <input type="password" name="password_1">
+  	</div>
+  	<div class="input-group">
+  	  <label>Confirm password</label>
+  	  <input type="password" name="password_2">
+  	</div>
+  	<div class="input-group">
+  	  <button type="submit" class="btn" name="reg_user">Register</button>
+  	</div>
+  	<p>
+  		Already a member? <a href="Sign_In.php">Sign in</a>
+  	</p>
+  </form>
+  </div>
+	    		
+
+		
+	</div>
+
+</body>
+<footer>
+	<div id="foot">
+		<p>@Travel Bookings</p>
+		
+	</div>
+
+	
+</footer>
+</html>
